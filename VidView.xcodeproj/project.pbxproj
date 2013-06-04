@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E28E45C172D109400AB3510 /* helptextshadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E28E45A172D109400AB3510 /* helptextshadow.png */; };
+		4E28E45D172D109400AB3510 /* helptextshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E28E45B172D109400AB3510 /* helptextshadow@2x.png */; };
+		4E28E45F172D1CD000AB3510 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E28E45E172D1CD000AB3510 /* MediaPlayer.framework */; };
+		4E28E46B172D987300AB3510 /* VDVVideoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E28E466172D987300AB3510 /* VDVVideoDetailViewController.m */; };
+		4E28E46C172D987300AB3510 /* VDVVideoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E28E467172D987300AB3510 /* VDVVideoDetailViewController.xib */; };
+		4E28E46D172D987300AB3510 /* VDVVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E28E469172D987300AB3510 /* VDVVideoListViewController.m */; };
+		4E28E46E172D987300AB3510 /* VDVVideoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E28E46A172D987300AB3510 /* VDVVideoListViewController.xib */; };
 		4EDAF715172B88EA00A1CA48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDAF714172B88EA00A1CA48 /* UIKit.framework */; };
 		4EDAF717172B88EA00A1CA48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDAF716172B88EA00A1CA48 /* Foundation.framework */; };
 		4EDAF719172B88EA00A1CA48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDAF718172B88EA00A1CA48 /* CoreGraphics.framework */; };
@@ -16,9 +23,22 @@
 		4EDAF727172B88EA00A1CA48 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAF726172B88EA00A1CA48 /* Default.png */; };
 		4EDAF729172B88EA00A1CA48 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAF728172B88EA00A1CA48 /* Default@2x.png */; };
 		4EDAF72B172B88EA00A1CA48 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAF72A172B88EA00A1CA48 /* Default-568h@2x.png */; };
+		4EDAF74F172BA6E000A1CA48 /* VDVYouTubeAPIINterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAF74E172BA6E000A1CA48 /* VDVYouTubeAPIINterface.m */; };
+		4EDAF752172BABB800A1CA48 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAF751172BABB800A1CA48 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4EDAF756172BD43E00A1CA48 /* VDVVideoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAF755172BD43E00A1CA48 /* VDVVideoListCell.m */; };
+		4EDAF758172BD49200A1CA48 /* VDVVideoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EDAF757172BD49200A1CA48 /* VDVVideoListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E28E45A172D109400AB3510 /* helptextshadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helptextshadow.png; sourceTree = "<group>"; };
+		4E28E45B172D109400AB3510 /* helptextshadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helptextshadow@2x.png"; sourceTree = "<group>"; };
+		4E28E45E172D1CD000AB3510 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4E28E465172D987300AB3510 /* VDVVideoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDVVideoDetailViewController.h; path = Controller/VDVVideoDetailViewController.h; sourceTree = "<group>"; };
+		4E28E466172D987300AB3510 /* VDVVideoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDVVideoDetailViewController.m; path = Controller/VDVVideoDetailViewController.m; sourceTree = "<group>"; };
+		4E28E467172D987300AB3510 /* VDVVideoDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VDVVideoDetailViewController.xib; path = Controller/VDVVideoDetailViewController.xib; sourceTree = "<group>"; };
+		4E28E468172D987300AB3510 /* VDVVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDVVideoListViewController.h; sourceTree = "<group>"; };
+		4E28E469172D987300AB3510 /* VDVVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDVVideoListViewController.m; sourceTree = "<group>"; };
+		4E28E46A172D987300AB3510 /* VDVVideoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDVVideoListViewController.xib; sourceTree = "<group>"; };
 		4EDAF711172B88EA00A1CA48 /* VidView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDAF714172B88EA00A1CA48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4EDAF716172B88EA00A1CA48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +52,13 @@
 		4EDAF726172B88EA00A1CA48 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4EDAF728172B88EA00A1CA48 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4EDAF72A172B88EA00A1CA48 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4EDAF74D172BA6E000A1CA48 /* VDVYouTubeAPIINterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDVYouTubeAPIINterface.h; path = Model/VDVYouTubeAPIINterface.h; sourceTree = "<group>"; };
+		4EDAF74E172BA6E000A1CA48 /* VDVYouTubeAPIINterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDVYouTubeAPIINterface.m; path = Model/VDVYouTubeAPIINterface.m; sourceTree = "<group>"; };
+		4EDAF750172BABB800A1CA48 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4EDAF751172BABB800A1CA48 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4EDAF754172BD43E00A1CA48 /* VDVVideoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VDVVideoListCell.h; path = View/VDVVideoListCell.h; sourceTree = "<group>"; };
+		4EDAF755172BD43E00A1CA48 /* VDVVideoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VDVVideoListCell.m; path = View/VDVVideoListCell.m; sourceTree = "<group>"; };
+		4EDAF757172BD49200A1CA48 /* VDVVideoListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VDVVideoListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E28E45F172D1CD000AB3510 /* MediaPlayer.framework in Frameworks */,
 				4EDAF715172B88EA00A1CA48 /* UIKit.framework in Frameworks */,
 				4EDAF717172B88EA00A1CA48 /* Foundation.framework in Frameworks */,
 				4EDAF719172B88EA00A1CA48 /* CoreGraphics.framework in Frameworks */,
@@ -48,6 +76,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E28E455172D100200AB3510 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				4E28E45A172D109400AB3510 /* helptextshadow.png */,
+				4E28E45B172D109400AB3510 /* helptextshadow@2x.png */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		4E28E463172D97FC00AB3510 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				4E28E465172D987300AB3510 /* VDVVideoDetailViewController.h */,
+				4E28E466172D987300AB3510 /* VDVVideoDetailViewController.m */,
+				4E28E467172D987300AB3510 /* VDVVideoDetailViewController.xib */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		4E28E464172D987300AB3510 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E28E468172D987300AB3510 /* VDVVideoListViewController.h */,
+				4E28E469172D987300AB3510 /* VDVVideoListViewController.m */,
+				4E28E46A172D987300AB3510 /* VDVVideoListViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4EDAF708172B88EA00A1CA48 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +125,7 @@
 		4EDAF713172B88EA00A1CA48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E28E45E172D1CD000AB3510 /* MediaPlayer.framework */,
 				4EDAF714172B88EA00A1CA48 /* UIKit.framework */,
 				4EDAF716172B88EA00A1CA48 /* Foundation.framework */,
 				4EDAF718172B88EA00A1CA48 /* CoreGraphics.framework */,
@@ -80,6 +138,12 @@
 			children = (
 				4EDAF723172B88EA00A1CA48 /* VDVAppDelegate.h */,
 				4EDAF724172B88EA00A1CA48 /* VDVAppDelegate.m */,
+				4EDAF753172BD3C000A1CA48 /* View */,
+				4EDAF74C172BA67E00A1CA48 /* Model */,
+				4E28E464172D987300AB3510 /* Controller */,
+				4E28E455172D100200AB3510 /* res */,
+				4EDAF748172BA66B00A1CA48 /* jsonkit */,
+				4E28E463172D97FC00AB3510 /* Old */,
 				4EDAF71B172B88EA00A1CA48 /* Supporting Files */,
 			);
 			path = VidView;
@@ -97,6 +161,34 @@
 				4EDAF72A172B88EA00A1CA48 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EDAF748172BA66B00A1CA48 /* jsonkit */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAF750172BABB800A1CA48 /* JSONKit.h */,
+				4EDAF751172BABB800A1CA48 /* JSONKit.m */,
+			);
+			path = jsonkit;
+			sourceTree = "<group>";
+		};
+		4EDAF74C172BA67E00A1CA48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAF74D172BA6E000A1CA48 /* VDVYouTubeAPIINterface.h */,
+				4EDAF74E172BA6E000A1CA48 /* VDVYouTubeAPIINterface.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4EDAF753172BD3C000A1CA48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAF754172BD43E00A1CA48 /* VDVVideoListCell.h */,
+				4EDAF755172BD43E00A1CA48 /* VDVVideoListCell.m */,
+				4EDAF757172BD49200A1CA48 /* VDVVideoListCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +247,11 @@
 				4EDAF727172B88EA00A1CA48 /* Default.png in Resources */,
 				4EDAF729172B88EA00A1CA48 /* Default@2x.png in Resources */,
 				4EDAF72B172B88EA00A1CA48 /* Default-568h@2x.png in Resources */,
+				4EDAF758172BD49200A1CA48 /* VDVVideoListCell.xib in Resources */,
+				4E28E45C172D109400AB3510 /* helptextshadow.png in Resources */,
+				4E28E45D172D109400AB3510 /* helptextshadow@2x.png in Resources */,
+				4E28E46C172D987300AB3510 /* VDVVideoDetailViewController.xib in Resources */,
+				4E28E46E172D987300AB3510 /* VDVVideoListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +264,11 @@
 			files = (
 				4EDAF721172B88EA00A1CA48 /* main.m in Sources */,
 				4EDAF725172B88EA00A1CA48 /* VDVAppDelegate.m in Sources */,
+				4EDAF74F172BA6E000A1CA48 /* VDVYouTubeAPIINterface.m in Sources */,
+				4EDAF752172BABB800A1CA48 /* JSONKit.m in Sources */,
+				4EDAF756172BD43E00A1CA48 /* VDVVideoListCell.m in Sources */,
+				4E28E46B172D987300AB3510 /* VDVVideoDetailViewController.m in Sources */,
+				4E28E46D172D987300AB3510 /* VDVVideoListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +298,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Myles Tan (A65JQ45N5V)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -209,9 +312,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "73560F6D-0EE9-406A-A891-7C66092BC3BA";
+				SDKROOT = iphoneos6.0;
 			};
 			name = Debug;
 		};
@@ -227,15 +331,18 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Myles Tan (A65JQ45N5V)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Myles Tan (A65JQ45N5V)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				PROVISIONING_PROFILE = "73560F6D-0EE9-406A-A891-7C66092BC3BA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D3799534-44EB-447A-B946-06EE96B49958";
+				SDKROOT = iphoneos6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -281,6 +388,7 @@
 				4EDAF730172B88EA00A1CA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

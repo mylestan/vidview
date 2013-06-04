@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#import "VDVVideoListViewController.h"
+
 @interface VDVAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (retain, nonatomic) UINavigationController *navController;
+
+@property (retain, nonatomic) VDVVideoListViewController *videoListController;
 
 @end

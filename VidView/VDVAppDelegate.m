@@ -13,8 +13,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    self.videoListController = [[VDVVideoListViewController alloc] initWithNibName:@"VDVVideoListViewController" bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:self.videoListController];
+    self.navController.navigationBar.barStyle = UIBarStyleBlack;
+    
+    self.window.rootViewController = self.navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
